@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://ccwb727nrg2n5"]
+[gd_scene load_steps=6 format=3 uid="uid://ccwb727nrg2n5"]
 
 [ext_resource type="PackedScene" uid="uid://bsf8mcltnkc4u" path="res://Nodes/asset_inspector.tscn" id="1_tjybi"]
+[ext_resource type="PackedScene" path="res://Models/studio.glb" id="2_bh4v8"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_3r15n"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -33,3 +34,6 @@ defaultRotationSpeed = 0.6
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.278, 2.483)
+
+[node name="studio" parent="." instance=ExtResource("2_bh4v8")]
+transform = Transform3D(0.966734, 0, -0.255783, 0, 1, 0, 0.255783, 0, 0.966734, -0.932925, -0.773719, 0.00944924)
