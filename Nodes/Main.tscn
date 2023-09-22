@@ -1,5 +1,6 @@
-[gd_scene load_steps=8 format=3 uid="uid://ccwb727nrg2n5"]
+[gd_scene load_steps=9 format=3 uid="uid://ccwb727nrg2n5"]
 
+[ext_resource type="PackedScene" uid="uid://clrof750kg1dk" path="res://Nodes/ItemDisplayUI.tscn" id="1_paquj"]
 [ext_resource type="PackedScene" uid="uid://bsf8mcltnkc4u" path="res://Nodes/asset_inspector.tscn" id="1_tjybi"]
 [ext_resource type="PackedScene" uid="uid://8qbv74exfva2" path="res://ModelFactory/Models/studio.glb" id="2_bh4v8"]
 [ext_resource type="PackedScene" uid="uid://is31trst3xtx" path="res://ModelFactory/Models/podium.glb" id="3_fonfh"]
@@ -26,6 +27,10 @@ tonemap_mode = 2
 
 [node name="Main" type="Node3D"]
 
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" parent="CanvasLayer" instance=ExtResource("1_paquj")]
+
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_ia5hu")
 
@@ -35,6 +40,7 @@ light_color = Color(0.85098, 0.85098, 0.85098, 1)
 shadow_enabled = true
 
 [node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.776046, -0.251481, 0.578368, 0, 0.91706, 0.398749, -0.630676, -0.309448, 0.711681, 1.61, 1.455, 2.7)
 
 [node name="studio" parent="." instance=ExtResource("2_bh4v8")]
 

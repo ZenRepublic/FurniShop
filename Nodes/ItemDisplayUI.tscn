@@ -1,0 +1,192 @@
+[gd_scene load_steps=11 format=3 uid="uid://clrof750kg1dk"]
+
+[ext_resource type="Texture2D" uid="uid://dhfvuxdxch71j" path="res://Textures/Background wit cutout.PNG" id="1_amn17"]
+[ext_resource type="Texture2D" uid="uid://n44w5sh5lnhk" path="res://Textures/Furni logo.PNG" id="2_3w6eh"]
+[ext_resource type="Texture2D" uid="uid://o5qojr3h7v7k" path="res://Textures/LogoNoBackground (1).png" id="3_1q1dc"]
+[ext_resource type="Texture2D" uid="uid://bk84kfyp77ram" path="res://Textures/Wow sticker.PNG" id="4_3olhi"]
+[ext_resource type="Texture2D" uid="uid://bclon1bwpd0no" path="res://Textures/Single panel.PNG" id="5_orm8s"]
+[ext_resource type="FontFile" uid="uid://53iomoyhiyob" path="res://Fonts/Charming Smile DEMO.ttf" id="6_q1u3m"]
+[ext_resource type="Texture2D" uid="uid://bgu3ub4n7h8v5" path="res://Textures/solanalogo.png" id="7_sab1q"]
+[ext_resource type="FontFile" uid="uid://dka7ugrce8bok" path="res://Fonts/GeometrySoftPro-BoldN.otf" id="8_pmgum"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5ak60"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7trip"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_5ak60")
+
+[node name="BGTexture2" type="TextureRect" parent="Background"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_amn17")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="FurniLogo" type="TextureRect" parent="Background"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -442.0
+offset_top = 4.0
+offset_right = -22.0
+offset_bottom = 240.0
+grow_horizontal = 0
+texture = ExtResource("2_3w6eh")
+expand_mode = 1
+
+[node name="ZenLogo" type="TextureRect" parent="Background"]
+layout_mode = 1
+offset_left = 21.0
+offset_top = -5.0
+offset_right = 284.0
+offset_bottom = 258.0
+texture = ExtResource("3_1q1dc")
+expand_mode = 1
+
+[node name="WowSticker" type="TextureRect" parent="Background"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -295.0
+offset_top = -9.5
+offset_right = 3.0
+offset_bottom = 288.5
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("4_3olhi")
+expand_mode = 1
+
+[node name="PricePanel" type="TextureRect" parent="Background"]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 700.0
+offset_right = 511.0
+offset_bottom = 854.0
+texture = ExtResource("5_orm8s")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="Background/PricePanel"]
+layout_mode = 0
+offset_left = 11.0
+offset_top = -35.0
+offset_right = 352.0
+offset_bottom = 172.0
+theme_override_fonts/font = ExtResource("6_q1u3m")
+theme_override_font_sizes/font_size = 200
+text = "0.05"
+
+[node name="TokenLogo" type="TextureRect" parent="Background/PricePanel"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -146.0
+offset_top = -33.0
+offset_right = -77.0
+offset_bottom = 36.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("7_sab1q")
+expand_mode = 1
+
+[node name="PcsPanel" type="TextureRect" parent="Background"]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 883.0
+offset_right = 347.0
+offset_bottom = 991.0
+texture = ExtResource("5_orm8s")
+expand_mode = 1
+
+[node name="PrintAmounnt" type="Label" parent="Background/PcsPanel"]
+layout_mode = 0
+offset_left = 18.0
+offset_top = -19.0
+offset_right = 239.0
+offset_bottom = 137.0
+theme_override_fonts/font = ExtResource("6_q1u3m")
+theme_override_font_sizes/font_size = 130
+text = "100"
+
+[node name="Pcs" type="Label" parent="Background/PcsPanel"]
+layout_mode = 0
+offset_left = 200.0
+offset_top = 18.0
+offset_right = 391.0
+offset_bottom = 144.0
+theme_override_fonts/font = ExtResource("6_q1u3m")
+theme_override_font_sizes/font_size = 70
+text = "pcs"
+
+[node name="Text" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -449.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_7trip")
+
+[node name="Name" type="Label" parent="Text"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -522.0
+offset_top = 72.0
+offset_right = 522.0
+offset_bottom = 235.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("6_q1u3m")
+theme_override_font_sizes/font_size = 130
+text = "ZESTY CLOUD SOFA"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Description" type="Label" parent="Text"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -426.0
+offset_top = -243.0
+offset_right = 427.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("8_pmgum")
+theme_override_font_sizes/font_size = 53
+text = "Sleek and cozy sofa made for maximum comfort with a burst of vibrant energy in your space"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2

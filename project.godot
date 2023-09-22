@@ -15,6 +15,18 @@ run/main_scene="res://Nodes/Main.tscn"
 config/features=PackedStringArray("4.1", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[display]
+
+window/size/viewport_width=1144
+window/size/viewport_height=1415
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[editor]
+
+movie_writer/mjpeg_quality=1.0
+movie_writer/movie_file="C:/Users/thoma/Desktop/GodotProjects/FurniShop/ModelFactory/Renders/video.avi"
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
