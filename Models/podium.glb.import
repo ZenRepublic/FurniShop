@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bhkgryc850ykk"
-path="res://.godot/imported/sofa.glb-094ad13f8c4556f6f563fb864f9e7da7.scn"
+uid="uid://is31trst3xtx"
+path="res://.godot/imported/podium.glb-90c1e7997a33fea1f429e991e866b5c5.scn"
 
 [deps]
 
-source_file="res://Models/sofa.glb"
-dest_files=["res://.godot/imported/sofa.glb-094ad13f8c4556f6f563fb864f9e7da7.scn"]
+source_file="res://Models/podium.glb"
+dest_files=["res://.godot/imported/podium.glb-90c1e7997a33fea1f429e991e866b5c5.scn"]
 
 [params]
 

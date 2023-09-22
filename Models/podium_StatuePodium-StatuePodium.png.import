@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://5qk688j4evif"
-path.s3tc="res://.godot/imported/studio_StudioWall2.png-99e1a4768371e225c38676033120daf8.s3tc.ctex"
+uid="uid://c681hn0rc4n0b"
+path.s3tc="res://.godot/imported/podium_StatuePodium-StatuePodium.png-3871ed6cae72992f455a11ac5926e650.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://Models/studio_StudioWall2.png"
-dest_files=["res://.godot/imported/studio_StudioWall2.png-99e1a4768371e225c38676033120daf8.s3tc.ctex"]
+source_file="res://Models/podium_StatuePodium-StatuePodium.png"
+dest_files=["res://.godot/imported/podium_StatuePodium-StatuePodium.png-3871ed6cae72992f455a11ac5926e650.s3tc.ctex"]
 
 [params]
 
