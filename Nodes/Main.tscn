@@ -32,4 +32,4 @@ maxDistance = 3.0
 defaultRotationSpeed = 0.6
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.948324, 0.317305, 0, -0.317305, 0.948324, 0, 1.278, 2.483)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.278, 2.483)
