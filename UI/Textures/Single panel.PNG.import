@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bk84kfyp77ram"
-path="res://.godot/imported/Wow sticker.PNG-a85627e5384d7fff9c0e50ce3a90a05d.ctex"
+uid="uid://bclon1bwpd0no"
+path="res://.godot/imported/Single panel.PNG-dd7b718dbc64d51e0e70038433b55829.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Textures/Wow sticker.PNG"
-dest_files=["res://.godot/imported/Wow sticker.PNG-a85627e5384d7fff9c0e50ce3a90a05d.ctex"]
+source_file="res://UI/Textures/Single panel.PNG"
+dest_files=["res://.godot/imported/Single panel.PNG-dd7b718dbc64d51e0e70038433b55829.ctex"]
 
 [params]
 

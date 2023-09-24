@@ -1,10 +1,10 @@
 [gd_scene load_steps=9 format=3 uid="uid://ccwb727nrg2n5"]
 
-[ext_resource type="PackedScene" uid="uid://clrof750kg1dk" path="res://Nodes/ItemDisplayUI.tscn" id="1_paquj"]
-[ext_resource type="PackedScene" uid="uid://bsf8mcltnkc4u" path="res://Nodes/asset_inspector.tscn" id="1_tjybi"]
-[ext_resource type="PackedScene" uid="uid://8qbv74exfva2" path="res://ModelFactory/Models/studio.glb" id="2_bh4v8"]
-[ext_resource type="PackedScene" uid="uid://is31trst3xtx" path="res://ModelFactory/Models/podium.glb" id="3_fonfh"]
-[ext_resource type="Script" path="res://Scripts/AssetInspector.gd" id="4_c5u5f"]
+[ext_resource type="PackedScene" uid="uid://clrof750kg1dk" path="res://UI/ItemDisplayUI.tscn" id="1_2b8f0"]
+[ext_resource type="PackedScene" uid="uid://8qbv74exfva2" path="res://Season1/ShopAssets/studio.glb" id="2_malgl"]
+[ext_resource type="PackedScene" uid="uid://is31trst3xtx" path="res://Season1/ShopAssets/podium.glb" id="3_26nds"]
+[ext_resource type="PackedScene" uid="uid://bsf8mcltnkc4u" path="res://Nodes/asset_inspector.tscn" id="4_8kkq7"]
+[ext_resource type="Script" path="res://Nodes/AssetInspector.gd" id="5_tfwf1"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_pc4tn"]
 sky_top_color = Color(0, 0, 0, 1)
@@ -29,7 +29,7 @@ tonemap_mode = 2
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
-[node name="Control" parent="CanvasLayer" instance=ExtResource("1_paquj")]
+[node name="ItemDisplayUI" parent="CanvasLayer" instance=ExtResource("1_2b8f0")]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_ia5hu")
@@ -42,14 +42,14 @@ shadow_enabled = true
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(0.776046, -0.251481, 0.578368, 0, 0.91706, 0.398749, -0.630676, -0.309448, 0.711681, 1.61, 1.455, 2.7)
 
-[node name="studio" parent="." instance=ExtResource("2_bh4v8")]
+[node name="studio" parent="." instance=ExtResource("2_malgl")]
 
-[node name="podium" parent="." instance=ExtResource("3_fonfh")]
+[node name="podium" parent="." instance=ExtResource("3_26nds")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.866653)
 
-[node name="asset_inspector" parent="podium" instance=ExtResource("1_tjybi")]
+[node name="asset_inspector" parent="podium" instance=ExtResource("4_8kkq7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.383759, 0)
-script = ExtResource("4_c5u5f")
+script = ExtResource("5_tfwf1")
 minDistance = 1.7
 maxDistance = 3.0
 defaultRotationSpeed = 0.2

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://o5qojr3h7v7k"
-path="res://.godot/imported/LogoNoBackground (1).png-258bfd25efeb3ac47e6739c7456daf80.ctex"
+uid="uid://bgu3ub4n7h8v5"
+path="res://.godot/imported/solanalogo.png-775f8ad9c843969a7a68d14323b6708c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Textures/LogoNoBackground (1).png"
-dest_files=["res://.godot/imported/LogoNoBackground (1).png-258bfd25efeb3ac47e6739c7456daf80.ctex"]
+source_file="res://UI/Textures/solanalogo.png"
+dest_files=["res://.godot/imported/solanalogo.png-775f8ad9c843969a7a68d14323b6708c.ctex"]
 
 [params]
 

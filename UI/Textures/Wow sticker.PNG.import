@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bgu3ub4n7h8v5"
-path="res://.godot/imported/solanalogo.png-382e99060b7f28d825b260cbacb40e74.ctex"
+uid="uid://bk84kfyp77ram"
+path="res://.godot/imported/Wow sticker.PNG-5b032aec63caa0d98422c61718e1fceb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Textures/solanalogo.png"
-dest_files=["res://.godot/imported/solanalogo.png-382e99060b7f28d825b260cbacb40e74.ctex"]
+source_file="res://UI/Textures/Wow sticker.PNG"
+dest_files=["res://.godot/imported/Wow sticker.PNG-5b032aec63caa0d98422c61718e1fceb.ctex"]
 
 [params]
 

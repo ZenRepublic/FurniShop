@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://is31trst3xtx"
-path="res://.godot/imported/podium.glb-1117ba929b8691a09915f34edf3fd7cd.scn"
+path="res://.godot/imported/podium.glb-b226342912b5f8dec436f31fba17fb80.scn"
 
 [deps]
 
-source_file="res://ModelFactory/Models/podium.glb"
-dest_files=["res://.godot/imported/podium.glb-1117ba929b8691a09915f34edf3fd7cd.scn"]
+source_file="res://Season1/ShopAssets/podium.glb"
+dest_files=["res://.godot/imported/podium.glb-b226342912b5f8dec436f31fba17fb80.scn"]
 
 [params]
 

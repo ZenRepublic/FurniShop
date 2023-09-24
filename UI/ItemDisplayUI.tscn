@@ -1,12 +1,12 @@
 [gd_scene load_steps=11 format=3 uid="uid://clrof750kg1dk"]
 
-[ext_resource type="Texture2D" uid="uid://dhfvuxdxch71j" path="res://Textures/Background wit cutout.PNG" id="1_amn17"]
-[ext_resource type="Texture2D" uid="uid://n44w5sh5lnhk" path="res://Textures/Furni logo.PNG" id="2_3w6eh"]
-[ext_resource type="Texture2D" uid="uid://o5qojr3h7v7k" path="res://Textures/LogoNoBackground (1).png" id="3_1q1dc"]
-[ext_resource type="Texture2D" uid="uid://bk84kfyp77ram" path="res://Textures/Wow sticker.PNG" id="4_3olhi"]
-[ext_resource type="Texture2D" uid="uid://bclon1bwpd0no" path="res://Textures/Single panel.PNG" id="5_orm8s"]
+[ext_resource type="Texture2D" uid="uid://dhfvuxdxch71j" path="res://UI/Textures/Background wit cutout.PNG" id="1_loae6"]
+[ext_resource type="Texture2D" uid="uid://n44w5sh5lnhk" path="res://UI/Textures/Furni logo.PNG" id="2_x4wv2"]
+[ext_resource type="Texture2D" uid="uid://o5qojr3h7v7k" path="res://UI/Textures/LogoNoBackground (1).png" id="3_1yaj0"]
+[ext_resource type="Texture2D" uid="uid://bk84kfyp77ram" path="res://UI/Textures/Wow sticker.PNG" id="4_4nvfr"]
+[ext_resource type="Texture2D" uid="uid://bclon1bwpd0no" path="res://UI/Textures/Single panel.PNG" id="5_cnd1s"]
 [ext_resource type="FontFile" uid="uid://53iomoyhiyob" path="res://Fonts/Charming Smile DEMO.ttf" id="6_q1u3m"]
-[ext_resource type="Texture2D" uid="uid://bgu3ub4n7h8v5" path="res://Textures/solanalogo.png" id="7_sab1q"]
+[ext_resource type="Texture2D" uid="uid://bgu3ub4n7h8v5" path="res://UI/Textures/solanalogo.png" id="7_rse7n"]
 [ext_resource type="FontFile" uid="uid://dka7ugrce8bok" path="res://Fonts/GeometrySoftPro-BoldN.otf" id="8_pmgum"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5ak60"]
@@ -38,7 +38,7 @@ anchor_bottom = 1.0
 offset_top = -1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_amn17")
+texture = ExtResource("1_loae6")
 expand_mode = 1
 stretch_mode = 6
 
@@ -52,7 +52,7 @@ offset_top = 4.0
 offset_right = -22.0
 offset_bottom = 240.0
 grow_horizontal = 0
-texture = ExtResource("2_3w6eh")
+texture = ExtResource("2_x4wv2")
 expand_mode = 1
 
 [node name="ZenLogo" type="TextureRect" parent="Background"]
@@ -61,7 +61,7 @@ offset_left = 21.0
 offset_top = -5.0
 offset_right = 284.0
 offset_bottom = 258.0
-texture = ExtResource("3_1q1dc")
+texture = ExtResource("3_1yaj0")
 expand_mode = 1
 
 [node name="WowSticker" type="TextureRect" parent="Background"]
@@ -77,7 +77,7 @@ offset_right = 3.0
 offset_bottom = 288.5
 grow_horizontal = 0
 grow_vertical = 2
-texture = ExtResource("4_3olhi")
+texture = ExtResource("4_4nvfr")
 expand_mode = 1
 
 [node name="PricePanel" type="TextureRect" parent="Background"]
@@ -86,7 +86,7 @@ offset_left = 2.0
 offset_top = 700.0
 offset_right = 511.0
 offset_bottom = 854.0
-texture = ExtResource("5_orm8s")
+texture = ExtResource("5_cnd1s")
 expand_mode = 1
 
 [node name="Label" type="Label" parent="Background/PricePanel"]
@@ -112,7 +112,7 @@ offset_right = -77.0
 offset_bottom = 36.0
 grow_horizontal = 0
 grow_vertical = 2
-texture = ExtResource("7_sab1q")
+texture = ExtResource("7_rse7n")
 expand_mode = 1
 
 [node name="PcsPanel" type="TextureRect" parent="Background"]
@@ -121,7 +121,7 @@ offset_left = 2.0
 offset_top = 883.0
 offset_right = 347.0
 offset_bottom = 991.0
-texture = ExtResource("5_orm8s")
+texture = ExtResource("5_cnd1s")
 expand_mode = 1
 
 [node name="PrintAmounnt" type="Label" parent="Background/PcsPanel"]

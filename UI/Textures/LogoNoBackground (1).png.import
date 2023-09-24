@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bclon1bwpd0no"
-path="res://.godot/imported/Single panel.PNG-b0e621c664724e994d97a02efff951ea.ctex"
+uid="uid://o5qojr3h7v7k"
+path="res://.godot/imported/LogoNoBackground (1).png-1fd5e36cacdbe7e38be9fb7e332fd563.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Textures/Single panel.PNG"
-dest_files=["res://.godot/imported/Single panel.PNG-b0e621c664724e994d97a02efff951ea.ctex"]
+source_file="res://UI/Textures/LogoNoBackground (1).png"
+dest_files=["res://.godot/imported/LogoNoBackground (1).png-1fd5e36cacdbe7e38be9fb7e332fd563.ctex"]
 
 [params]
 

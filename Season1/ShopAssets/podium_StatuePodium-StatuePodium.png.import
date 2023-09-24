@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dru3wdiqgin7"
-path.s3tc="res://.godot/imported/Podium_Podium.png-e816b53759052368e1dd45c42573fadc.s3tc.ctex"
+uid="uid://c681hn0rc4n0b"
+path.bptc="res://.godot/imported/podium_StatuePodium-StatuePodium.png-d73c166e5a54f4a7a6e0e7a3504560b2.bptc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,13 +12,13 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://Textures/Podium_Podium.png"
-dest_files=["res://.godot/imported/Podium_Podium.png-e816b53759052368e1dd45c42573fadc.s3tc.ctex"]
+source_file="res://Season1/ShopAssets/podium_StatuePodium-StatuePodium.png"
+dest_files=["res://.godot/imported/podium_StatuePodium-StatuePodium.png-d73c166e5a54f4a7a6e0e7a3504560b2.bptc.ctex"]
 
 [params]
 
 compress/mode=2
-compress/high_quality=false
+compress/high_quality=true
 compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/normal_map=0

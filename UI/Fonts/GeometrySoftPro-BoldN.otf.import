@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://dka7ugrce8bok"
-path="res://.godot/imported/GeometrySoftPro-BoldN.otf-21bd1a05c3bd7321419b3b29ea12690c.fontdata"
+path="res://.godot/imported/GeometrySoftPro-BoldN.otf-b0d32a983bb4ce9b81f4d8b0ad94f2b8.fontdata"
 
 [deps]
 
-source_file="res://Fonts/GeometrySoftPro-BoldN.otf"
-dest_files=["res://.godot/imported/GeometrySoftPro-BoldN.otf-21bd1a05c3bd7321419b3b29ea12690c.fontdata"]
+source_file="res://UI/Fonts/GeometrySoftPro-BoldN.otf"
+dest_files=["res://.godot/imported/GeometrySoftPro-BoldN.otf-b0d32a983bb4ce9b81f4d8b0ad94f2b8.fontdata"]
 
 [params]
 

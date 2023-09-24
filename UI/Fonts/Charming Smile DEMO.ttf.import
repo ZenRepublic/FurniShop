@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://53iomoyhiyob"
-path="res://.godot/imported/Charming Smile DEMO.ttf-248ad8ae55dc417b8c3af373d75c6df1.fontdata"
+path="res://.godot/imported/Charming Smile DEMO.ttf-074179f1798eba194530178fc9bda8a2.fontdata"
 
 [deps]
 
-source_file="res://Fonts/Charming Smile DEMO.ttf"
-dest_files=["res://.godot/imported/Charming Smile DEMO.ttf-248ad8ae55dc417b8c3af373d75c6df1.fontdata"]
+source_file="res://UI/Fonts/Charming Smile DEMO.ttf"
+dest_files=["res://.godot/imported/Charming Smile DEMO.ttf-074179f1798eba194530178fc9bda8a2.fontdata"]
 
 [params]
 
